@@ -2,7 +2,7 @@
 A server that (suprise, suprise) *serves* a RESTful API for retrieving customer data such as rewards, coupons and store locations
 
 <h2>What does it use?</h2>
-<h6>the TIS APP/SERVER uses a modified MEAN Stack comprised of:</h6>
+<h6>the ECOMMERCE APP/SERVER uses a modified MEAN Stack comprised of:</h6>
 - MongoDB
 - Restify
 - Node.JS
@@ -15,7 +15,7 @@ A server that (suprise, suprise) *serves* a RESTful API for retrieving customer 
 - *Restify*
   - Resify is used to write an RESTful API to send requests for information from the client to the server
 - *MongoDB*
-  - This document based database will house store location and user data which the <a href="https://github.com/TNGWorldwide/tisApp/blob/master/www/js/services.js">app</a> will request
+  - This document based database will house store location and user data which the app will request
 - *Angular*
   - Not at all used by the server, this is a client side component used to display data to the user
 - *Ionic*
@@ -24,7 +24,7 @@ A server that (suprise, suprise) *serves* a RESTful API for retrieving customer 
 <h2>OK Cool, so how do I install it?</h2>
 <h6>Instructions assume running a Debian based linux distro (Such as ubuntu)</h6>
   
-- Download the server and <a href="https://github.com/TNGWorldwide/tisApp">client</a> repositories
+- Download the server and client repositories
   
 - INSTALL NODE AND NPM
 ```
@@ -53,7 +53,7 @@ sudo apt-get install php5
   
 <h2>So what now?</h2>
   
-- Navigate inside the server tisAppServer folder
+- Navigate inside the server  folder
 - From here, run ```bower install```
 - Didn't work?
   - ```npm init```
@@ -66,7 +66,7 @@ You can view the database by using the command ```mongod```.
   ```show collections;              //Show collections/tables within a database```<br>
   ```db.collection.find().pretty(); //show some records in a pretty format.```<br>
   
-Now it's time to install the <a href="https://github.com/TNGWorldwide/tisApp">client</a> app
+Now it's time to install the client app
 
 <h2>HELP! I'M NOT READY</h2>
 
