@@ -1,0 +1,31 @@
+{
+  "name": "tisappserver",
+  "version": "0.1.0",
+  "description": "An example project for mongodb and angular",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Xavier Long",
+  "license": "MIT",
+  "engines": {
+    "node": "0.10.x"
+  },
+  "dependencies": {
+    "bcrypt": "^0.8.5",
+    "mongojs": "^0.13.1",
+    "morgan": "^1.6.1",
+    "node-gyp": "^3.0.1",
+    "restify": "^2.8.5"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TNGWorldwide/tisAppServer.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TNGWorldwide/tisAppServer/issues"
+  },
+  "homepage": "https://github.com/TNGWorldwide/tisAppServer#readme"
+}
